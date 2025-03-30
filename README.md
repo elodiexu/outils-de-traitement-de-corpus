@@ -1,4 +1,4 @@
-# Project: Analysis of Female Character Descriptions in Popular Films (2022–2024)   
+## Project: Analyse des descriptions des personnages féminins dans les films populaires (2022–2024) 
 ---
 1. **Définissez les besoins de votre projet :**   
 
