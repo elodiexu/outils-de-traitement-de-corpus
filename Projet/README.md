@@ -23,7 +23,7 @@
   - et les **critiques spectateurs** mentionnant des personnages féminins.   
 
 - **où allez-vous récupérer vos données ?**   
-  Sur le site **Allociné.fr**, en ciblant les **10 films les mieux notés** de chaque année : 2022, 2023 et 2024.
+  Sur le site **Allociné.fr**, en ciblant les **10 films les plus populaires** de chaque année : 2022, 2023 et 2024.
 
 - **sont-elles libres d'accès ?**   
   Oui, les données sont **publiquement accessibles** sur le site Allociné dans le cadre d’une utilisation non commerciale et académique.
