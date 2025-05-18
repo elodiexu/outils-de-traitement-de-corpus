@@ -1,6 +1,6 @@
 ## Project: Analyse des sentiments dans les critiques de films populaires (2022–2024)
 
-1. Définissez les besoins de votre projet :   
+- **Définissez les besoins de votre projet :**   
   Ce projet répond au besoin d’analyser automatiquement les sentiments exprimés dans les critiques de films.
   Il vise à développer un outil de classification automatique capable de distinguer les opinions positives, neutres ou négatives à partir des critiques spectateurs en langue française.
   Cela permettrait d’exploiter un grand volume de données issues du web (ici Allociné) pour mieux comprendre la réception des films populaires entre 2022 et 2024.
