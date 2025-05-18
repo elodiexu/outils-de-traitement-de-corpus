@@ -1,26 +1,26 @@
-## Project: Analyse des descriptions des personnages féminins dans les films populaires (2022–2024)   
+## Project: Analyse des sentiments dans les critiques de films populaires (2022–2024)
 
 1. Définissez les besoins de votre projet :   
-  Ce projet s’inscrit dans le besoin de **comprendre l’évolution des représentations féminines** dans le cinéma populaire contemporain.  
-À travers l’analyse des mots utilisés pour décrire les personnages féminins, il vise à repérer les éventuels stéréotypes ou transformations dans les discours culturels récents.   
+  Ce projet répond au besoin de mieux comprendre comment les spectateurs perçoivent les films populaires récents à travers leurs réactions émotionnelles.
+Il vise à détecter les tendances positives, négatives ou neutres dans les critiques spectateurs, afin de dégager une cartographie des sentiments exprimés dans le cinéma français entre 2022 et 2024.
 
 - **dans quel besoin vous inscrivez-vous ?**   
-  Le besoin d’analyser **les tendances linguistiques et sociales** dans la manière dont les femmes sont représentées dans les médias culturels populaires (ici : le cinéma).
+  Le besoin d’analyser les opinions, émotions et jugements exprimés par le public sur les œuvres cinématographiques, en particulier dans un contexte de forte production culturelle et de réception en ligne.
+L’étude s’inscrit dans une approche de traitement automatique des langues appliquée à la critique cinématographique.
 
 - **quel sujet allez-vous traiter ?**   
   Je vais traiter le sujet suivant :  
-  “Comment les personnages féminins sont-ils décrits dans les films les plus populaires entre 2022 et 2024 ?”   
+  “Quelle est la tonalité émotionnelle des critiques spectateurs des films les plus populaires entre 2022 et 2024 ?”
 
 - **quel type de tâche allez-vous réaliser ?**   
-  La tâche principale consiste en une **analyse lexicale descriptive** :   
-  - extraction automatique des adjectifs utilisés pour qualifier les personnages féminins ;   
-  - comptage de fréquence par année ;   
-  - visualisation des tendances sur trois ans.   
+  La tâche principale consiste à classifier automatiquement des critiques spectateurs selon leur polarité :
+	•	Création d’un corpus annoté (positif / négatif / neutre)
+	•	Entraînement d’un modèle de classification (CamemBERT)
+	•	Évaluation des performances et visualisation des résultats (métriques, nuages de mots)
 
 - **quel type de données allez-vous exploiter ?**   
-  Des **textes descriptifs issus du site Allociné**, incluant :   
-  - les **synopsis** de films ;   
-  - et les **critiques spectateurs** mentionnant des personnages féminins.   
+  Des critiques spectateurs issues du site Allociné, rédigées en langue française, contenant des opinions sur les films.
+Chaque critique constitue une unité textuelle à analyser sur le plan émotionnel.
 
 - **où allez-vous récupérer vos données ?**   
   Sur le site **Allociné.fr**, en ciblant les **10 films les plus populaires** de chaque année : 2022, 2023 et 2024.
