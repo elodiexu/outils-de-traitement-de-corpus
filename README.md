@@ -16,11 +16,10 @@ L’étude s’inscrit dans une approche de traitement automatique des langues a
   La tâche principale consiste à classifier automatiquement des critiques spectateurs selon leur polarité :
 	•	Création d’un corpus annoté (positif / négatif / neutre)
 	•	Entraînement d’un modèle de classification (CamemBERT)
-	•	Évaluation des performances et visualisation des résultats (métriques, nuages de mots)
+	•	Évaluation des performances et visualisation des résultats 
 
 - **quel type de données allez-vous exploiter ?**   
   Des critiques spectateurs issues du site Allociné, rédigées en langue française, contenant des opinions sur les films.
-Chaque critique constitue une unité textuelle à analyser sur le plan émotionnel.
 
 - **où allez-vous récupérer vos données ?**   
   Sur le site **Allociné.fr**, en ciblant les **10 films les plus populaires** de chaque année : 2022, 2023 et 2024.
