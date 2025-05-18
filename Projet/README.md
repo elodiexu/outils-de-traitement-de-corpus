@@ -1,16 +1,17 @@
 ## Project: Analyse des sentiments dans les critiques de films populaires (2022–2024)
 
 1. Définissez les besoins de votre projet :   
-  Ce projet répond au besoin de mieux comprendre comment les spectateurs perçoivent les films populaires récents à travers leurs réactions émotionnelles.
-Il vise à détecter les tendances positives, négatives ou neutres dans les critiques spectateurs, afin de dégager une cartographie des sentiments exprimés dans le cinéma français entre 2022 et 2024.
+  Ce projet répond au besoin d’analyser automatiquement les sentiments exprimés dans les critiques de films.
+  Il vise à développer un outil de classification automatique capable de distinguer les opinions positives, neutres ou négatives à partir des critiques spectateurs en langue française.
+  Cela permettrait d’exploiter un grand volume de données issues du web (ici Allociné) pour mieux comprendre la réception des films populaires entre 2022 et 2024.
 
 - **dans quel besoin vous inscrivez-vous ?**   
-  Le besoin d’analyser les opinions, émotions et jugements exprimés par le public sur les œuvres cinématographiques, en particulier dans un contexte de forte production culturelle et de réception en ligne.
-L’étude s’inscrit dans une approche de traitement automatique des langues appliquée à la critique cinématographique.
+  Je m’inscris dans le besoin d’automatiser l’analyse d’opinions dans le domaine du cinéma, en utilisant des techniques de traitement automatique des langues (TAL).
+Cela permet d’identifier les tendances générales du public sans passer par une lecture manuelle fastidieuse des commentaires.
 
 - **quel sujet allez-vous traiter ?**   
   Je vais traiter le sujet suivant :  
-  “Quelle est la tonalité émotionnelle des critiques spectateurs des films les plus populaires entre 2022 et 2024 ?”
+  “Comment classifier automatiquement les critiques spectateurs des films populaires (2022–2024) selon leur polarité émotionnelle ?”
 
 - **quel type de tâche allez-vous réaliser ?**   
   La tâche principale consiste à classifier automatiquement des critiques spectateurs selon leur polarité :
@@ -19,7 +20,8 @@ L’étude s’inscrit dans une approche de traitement automatique des langues a
 	•	Évaluation des performances et visualisation des résultats
 
 - **quel type de données allez-vous exploiter ?**   
-  Des critiques spectateurs issues du site Allociné, rédigées en langue française, contenant des opinions sur les films.
+  Je vais exploiter des données textuelles non structurées, à savoir des critiques spectateurs en langue française extraites du site Allociné.
+Elles sont ensuite organisées dans un fichier CSV, contenant les colonnes suivantes : film, année, commentaire original, commentaire augmenté, étiquette de polarité (positif, négatif, neutre).
 
 - **où allez-vous récupérer vos données ?**   
   Sur le site **Allociné.fr**, en ciblant les **10 films les plus populaires** de chaque année : 2022, 2023 et 2024.
