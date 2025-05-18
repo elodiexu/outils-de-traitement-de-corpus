@@ -25,7 +25,7 @@ def fetch_title(allocine_url):
     driver.quit()
     return title
 
-# Étape 2 : récupérer les critiques via l'API AJAX Allociné
+# Étape 2 : récupérer les critiques depuis les requêtes AJAX Allociné
 
 def fetch_reviews(film_id, max_pages=3, max_reviews=5):
     reviews = []
